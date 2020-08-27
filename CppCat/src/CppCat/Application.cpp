@@ -1,21 +1,18 @@
+#include "CppCatPCH.h"
 #include "Application.h"
 
 namespace CppCat
 {
-  class Application
+  Application::Application()
   {
-  public:
-    Application()
-    {
-    }
-    virtual ~Application()
-    {
-    }
+  }
+  Application::~Application()
+  {
+  }
 
-    void Run()
-    {
-      while (true);
-    }
+  void Application::Run()
+  {
+    while (true);
+  }
 
-  };
 }
