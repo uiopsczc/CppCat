@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CppCat">
+      <UniqueIdentifier>{C0F351AC-AC95-7C82-9550-90D6819103D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppCat\logCat">
+      <UniqueIdentifier>{09CC925B-758C-0E92-3EC7-570FAA46536E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CppCat.h" />
+    <ClInclude Include="src\CppCat\Application.h">
+      <Filter>CppCat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CppCat\Core.h">
+      <Filter>CppCat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CppCat\EntryPoint.h">
+      <Filter>CppCat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CppCat\Template.h">
+      <Filter>CppCat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CppCat\logCat\LogCat.h">
+      <Filter>CppCat\logCat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CppCatPCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CppCat\Application.cpp">
+      <Filter>CppCat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CppCat\Template.cpp">
+      <Filter>CppCat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CppCat\logCat\LogCat.cpp">
+      <Filter>CppCat\logCat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CppCatPCH.cpp" />
+  </ItemGroup>
+</Project>
