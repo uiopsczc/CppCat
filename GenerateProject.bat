@@ -1,2 +1,2 @@
-Call thirdpart/exe/premake/premake5.exe premake5.lua
+Call thirdpart\exe\premake\premake5.exe vs2017
 PAUSE
